@@ -45,6 +45,7 @@ p{
   position:relative;
   bottom:200px;
   padding:15px;
+  cursor:text;
 }
 #pass{
   background-color:#FFE5B4;
@@ -53,8 +54,9 @@ p{
   color:white;
   bottom:200px;
   padding:15px;
+  cursor:text;
 }
-button{
+#submit{
   padding-top:10px;
   padding-bottom:10px;
   padding-left:77.5px;
@@ -64,8 +66,9 @@ button{
   bottom:200px;
   color:#FFE5B4;
 }
-button.hover{
+#submit.hover{
   background-color:#f2f4f4;
+  cursor:pointer;
 }
 h6{
   transform: scale(.9);
@@ -82,7 +85,7 @@ a{
   <section>
    <p>Login</p>
    <input id="user" type="text" name="username" placeholder="Username" required><br><input id="pass" name="password" type="password" placeholder="Password" required>
-   <br><button id="submit" type="submit" value="Login"></button>
+   <br><input id="submit" type="submit" value="Login"></input>
    <h6>Forget Your Password? <a href="#">Click Here</a><br>
      Don't Have an Account? <a href="#">Signup</a>
    </h6>
